@@ -1,0 +1,152 @@
+{
+  "version": "0.1.0",
+  "name": "fl_platform",
+  "instructions": [
+    {
+      "name": "registerOrg",
+      "accounts": [
+        {
+          "name": "orgAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "user",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "name",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "registerUser",
+      "accounts": [
+        {
+          "name": "userAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "user",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "depositSol",
+      "accounts": [
+        {
+          "name": "userAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "user",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "orgAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "rewardUser",
+      "accounts": [
+        {
+          "name": "userAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "orgAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "user",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "rewardAmount",
+          "type": "u64"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "OrgAccount",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "owner",
+            "type": "publicKey"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UserAccount",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "user",
+            "type": "publicKey"
+          },
+          {
+            "name": "depositAmount",
+            "type": "u64"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "address": "8iCZiBVfJEw2kQk4FSLcxoJiUJCgDUdX6pgAGFUuz2eE"
+  }
+}

@@ -1,0 +1,201 @@
+{
+    "Healthcare": [
+      {
+        "id": 1,
+        "name": "Covid-19 X-Ray Prediction Model",
+        "description": "This model is trained on X-Ray images to detect Covid-19 in patients",
+        "version": "1.2.0",
+        "dateCreated": "2024-01-15"
+      },
+      {
+        "id": 2,
+        "name": "Pneumonia Predicting Model",
+        "description": "This model is used to predict pneumonia in patients based on chest X-rays",
+        "version": "2.0.1",
+        "dateCreated": "2024-02-20"
+      },
+      {
+        "id": 3,
+        "name": "Diabetes Risk Assessment Model",
+        "description": "Predicts the risk of developing diabetes based on patient data",
+        "version": "1.3.2",
+        "dateCreated": "2024-03-05"
+      },
+      {
+        "id": 4,
+        "name": "Cancer Cell Detection Model",
+        "description": "Analyzes medical images to detect cancerous cells",
+        "version": "2.1.0",
+        "dateCreated": "2024-01-30"
+      },
+      {
+        "id": 5,
+        "name": "Heart Disease Prediction Model",
+        "description": "Predicts the likelihood of heart disease based on patient data",
+        "version": "1.4.1",
+        "dateCreated": "2024-02-10"
+      },
+      {
+        "id": 6,
+        "name": "Brain Tumor Segmentation Model",
+        "description": "Segments brain tumors in MRI scans for accurate diagnosis",
+        "version": "3.0.0",
+        "dateCreated": "2024-03-20"
+      }
+    ],
+    "Finance": [
+      {
+        "id": 7,
+        "name": "Stock Market Prediction Model",
+        "description": "Predicts stock market trends based on historical data",
+        "version": "1.5.0",
+        "dateCreated": "2024-03-01"
+      },
+      {
+        "id": 8,
+        "name": "Credit Risk Assessment Model",
+        "description": "Assesses credit risk for loan applications",
+        "version": "2.2.1",
+        "dateCreated": "2024-02-15"
+      },
+      {
+        "id": 9,
+        "name": "Fraud Detection Model",
+        "description": "Detects fraudulent transactions in real-time",
+        "version": "3.1.0",
+        "dateCreated": "2024-03-10"
+      },
+      {
+        "id": 10,
+        "name": "Currency Exchange Rate Prediction Model",
+        "description": "Predicts currency exchange rates based on economic indicators",
+        "version": "1.0.3",
+        "dateCreated": "2024-01-20"
+      },
+      {
+        "id": 11,
+        "name": "Portfolio Optimization Model",
+        "description": "Optimizes investment portfolios for maximum returns",
+        "version": "2.3.2",
+        "dateCreated": "2024-02-28"
+      }
+    ],
+    "Automation": [
+      {
+        "id": 12,
+        "name": "Industrial Process Optimization Model",
+        "description": "Optimizes industrial processes for efficiency",
+        "version": "2.1.0",
+        "dateCreated": "2024-02-10"
+      },
+      {
+        "id": 13,
+        "name": "Predictive Maintenance Model",
+        "description": "Predicts when equipment will need maintenance",
+        "version": "1.4.2",
+        "dateCreated": "2024-03-05"
+      },
+      {
+        "id": 14,
+        "name": "Supply Chain Optimization Model",
+        "description": "Optimizes supply chain logistics for improved efficiency",
+        "version": "2.0.1",
+        "dateCreated": "2024-01-25"
+      },
+      {
+        "id": 15,
+        "name": "Quality Control Model",
+        "description": "Detects defects in manufacturing processes",
+        "version": "3.2.0",
+        "dateCreated": "2024-03-15"
+      },
+      {
+        "id": 16,
+        "name": "Energy Consumption Optimization Model",
+        "description": "Optimizes energy consumption in buildings and factories",
+        "version": "1.1.3",
+        "dateCreated": "2024-02-20"
+      }
+    ],
+    "Self Driving Cars": [
+      {
+        "id": 17,
+        "name": "Autonomous Vehicle Navigation Model",
+        "description": "Assists in navigation for self-driving cars",
+        "version": "3.0.2",
+        "dateCreated": "2024-03-15"
+      },
+      {
+        "id": 18,
+        "name": "Traffic Sign Recognition Model",
+        "description": "Recognizes and interprets traffic signs for autonomous vehicles",
+        "version": "2.1.1",
+        "dateCreated": "2024-02-05"
+      },
+      {
+        "id": 19,
+        "name": "Pedestrian Detection Model",
+        "description": "Detects and tracks pedestrians for improved vehicle safety",
+        "version": "1.3.3",
+        "dateCreated": "2024-01-10"
+      },
+      {
+        "id": 20,
+        "name": "Lane Detection Model",
+        "description": "Detects and tracks lane markings for autonomous driving",
+        "version": "2.2.0",
+        "dateCreated": "2024-03-01"
+      },
+      {
+        "id": 21,
+        "name": "Vehicle-to-Vehicle Communication Model",
+        "description": "Facilitates communication between autonomous vehicles",
+        "version": "1.0.1",
+        "dateCreated": "2024-02-25"
+      }
+    ],
+    "Research": [
+      {
+        "id": 22,
+        "name": "Scientific Literature Analysis Model",
+        "description": "Analyzes scientific literature for research insights",
+        "version": "1.1.0",
+        "dateCreated": "2024-01-30"
+      },
+      {
+        "id": 23,
+        "name": "Protein Folding Prediction Model",
+        "description": "Predicts protein structures based on amino acid sequences",
+        "version": "2.3.1",
+        "dateCreated": "2024-03-10"
+      },
+      {
+        "id": 24,
+        "name": "Climate Change Prediction Model",
+        "description": "Predicts long-term climate changes based on environmental data",
+        "version": "3.0.0",
+        "dateCreated": "2024-02-15"
+      },
+      {
+        "id": 25,
+        "name": "Genomic Data Analysis Model",
+        "description": "Analyzes genomic data for genetic research",
+        "version": "1.2.2",
+        "dateCreated": "2024-01-05"
+      },
+      {
+        "id": 26,
+        "name": "Drug Discovery Model",
+        "description": "Assists in discovering new drug candidates for various diseases",
+        "version": "2.1.3",
+        "dateCreated": "2024-03-20"
+      },
+      {
+        "id": 27,
+        "name": "Dark Matter Detection Model",
+        "description": "Analyzes astronomical data to detect dark matter",
+        "version": "1.0.2",
+        "dateCreated": "2024-02-28"
+      }
+    ]
+  }

@@ -1,0 +1,82 @@
+{
+  "Healthcare": [
+    {
+      "id": "health1",
+      "name": "MedicalDiagnosisAI",
+      "description": "AI model for medical diagnosis assistance",
+      "version": "1.2.0",
+      "dateCreated": "2024-03-15"
+    },
+    {
+      "id": "health2",
+      "name": "DrugDiscoveryML",
+      "description": "Machine learning model for drug discovery",
+      "version": "2.0.1",
+      "dateCreated": "2024-02-28"
+    }
+  ],
+  "Finance": [
+    {
+      "id": "finance1",
+      "name": "StockPredictionAI",
+      "description": "AI model for stock market prediction",
+      "version": "3.1.2",
+      "dateCreated": "2024-03-10"
+    },
+    {
+      "id": "finance2",
+      "name": "FraudDetectionML",
+      "description": "Machine learning model for fraud detection in financial transactions",
+      "version": "1.5.0",
+      "dateCreated": "2024-03-05"
+    }
+  ],
+  "Automation": [
+    {
+      "id": "auto1",
+      "name": "IndustrialAutomationAI",
+      "description": "AI model for industrial process automation",
+      "version": "2.3.0",
+      "dateCreated": "2024-03-20"
+    },
+    {
+      "id": "auto2",
+      "name": "SmartHomeML",
+      "description": "Machine learning model for smart home automation",
+      "version": "1.1.1",
+      "dateCreated": "2024-03-01"
+    }
+  ],
+  "Self Driving Cars": [
+    {
+      "id": "sdc1",
+      "name": "AutonomousDrivingAI",
+      "description": "AI model for autonomous vehicle navigation",
+      "version": "4.0.2",
+      "dateCreated": "2024-03-25"
+    },
+    {
+      "id": "sdc2",
+      "name": "TrafficPredictionML",
+      "description": "Machine learning model for traffic prediction in self-driving cars",
+      "version": "2.2.0",
+      "dateCreated": "2024-03-18"
+    }
+  ],
+  "Research": [
+    {
+      "id": "research1",
+      "name": "ScientificTextAnalysisAI",
+      "description": "AI model for analyzing scientific literature",
+      "version": "1.3.1",
+      "dateCreated": "2024-03-22"
+    },
+    {
+      "id": "research2",
+      "name": "DataVisualizationML",
+      "description": "Machine learning model for advanced data visualization in research",
+      "version": "2.0.0",
+      "dateCreated": "2024-03-12"
+    }
+  ]
+}
