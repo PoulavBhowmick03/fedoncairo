@@ -4,11 +4,12 @@ import { useAccount, useNetwork, useContractWrite, useContract } from "@starknet
 import { StakeAbi } from '@/utils/stake';
 import { toast } from 'react-toastify';
 
-type RegisterOrgButtonProps = {
-  onSuccess: (address: string) => void;
-  onError: (error: any) => void;
-};
-
+export interface RegisterOrgButtonProps {
+    isOpen: boolean;
+    onClose: () => void;
+    onSuccess: (publicKey: string) => void;
+    onError: (error: any) => void;
+}
 const RegisterOrgButton = ({ onSuccess, onError }: RegisterOrgButtonProps) => {
     const { address } = useAccount();
     const { chain } = useNetwork();

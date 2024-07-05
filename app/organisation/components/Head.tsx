@@ -32,8 +32,9 @@ const Head = () => {
           <div className="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
             <RegisterOrgButton
               onSuccess={handleRegisterOrgSuccess}
-              onError={handleRegisterOrgError}
-            />
+              onError={handleRegisterOrgError} isOpen={false} onClose={function (): void {
+                throw new Error("Function not implemented.");
+              } }            />
           </div>
         </div>
       </div>
