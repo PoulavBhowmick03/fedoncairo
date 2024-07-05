@@ -1,0 +1,18 @@
+[package]
+name = "fedchain"
+version = "0.1.0"
+
+[dependencies]
+starknet = ">=2.3.0"
+
+[[target.starknet-contract]]
+sierra = true
+casm = true
+
+[lib]
+sierra = true
+casm = true
+
+[[bin]]
+name = "fedchain"
+path = "src/main.cairo"
