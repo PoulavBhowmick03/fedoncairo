@@ -1,3 +1,28 @@
+# Get Started
+
+## Install the dependencies
+```
+npm install
+```
+
+## Set-up the .env file
+### Here is the .env file to be configured at the root of the project
+```
+DATABASE_URL="postgresql:..."
+NEXT_PUBLIC_STORE_ADDRESS=""
+NEXT_PUBLIC_STORE_SECRET=""
+```
+
+## Set-up the db and schema
+``` 
+npx prisma generate
+```
+
+## Run the development server
+```
+npm install
+```
+
 # FedChain
 A Federated Learning protocol built on Proof of Stake to establish trust and organisation reliability in the society. The architecture is built on top of micro-rollups to provide verifiable off-chain computation for state management
 
