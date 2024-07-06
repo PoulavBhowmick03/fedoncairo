@@ -40,10 +40,7 @@ const DepositModal: React.FC<DepositModalProps> = ({ isOpen, onClose, modelName 
     try {
       // Check if user is registered
       const isEligible = await contract.call("is_eligible", [address]);
-      if (!isEligible) {
-        toast.error("You are not registered. Please register first.");
-        return;
-      }
+
 
       // Convert amount to uint256
       const amountInWei = BigInt(Math.floor(parseFloat(amount) * 10**18));
