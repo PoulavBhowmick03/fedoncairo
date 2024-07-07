@@ -20,19 +20,19 @@ const UserRegistrationPage = () => {
     return `${address.slice(0, 6)}...${address.slice(-4)}`;
   }, [address]);
 
-  useEffect(() => {
-    const checkRegistration = async () => {
-      if (contract && address) {
-        try {
-          setIsRegistered(true);
-        } catch (error) {
-          console.error("Error checking registration status:", error);
-        }
-      }
-    };
+  // useEffect(() => {
+  //   const checkRegistration = async () => {
+  //     if (contract && address) {
+  //       try {
+  //         setIsRegistered(true);
+  //       } catch (error) {
+  //         console.error("Error checking registration status:", error);
+  //       }
+  //     }
+  //   };
 
-    checkRegistration();
-  }, [contract, address]);
+  //   checkRegistration();
+  // }, [contract, address]);
 
   const handleSuccess = (walletAddress: any) => {
     toast.success(`User registered with wallet address: ${walletAddress}`);
@@ -55,16 +55,16 @@ const UserRegistrationPage = () => {
             <p className="mt-1.5 text-sm text-gray-500">Lets train the model you want! 🎉</p>
           </div>
 
-          {isRegistered ? (
-            <button 
+          {/* {isRegistered ? ( */}
+            {/* <button 
               className="inline-block rounded bg-purple-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-indigo-500"
               disabled
             >
               Registered
             </button>
-          ) : (
+          ) : ( */}
             <RegisterButton onSuccess={handleSuccess} onError={handleError} />
-          )}
+          {/* )} */}
         </div>
       </div>
     </header>
